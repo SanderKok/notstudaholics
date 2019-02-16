@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+}
+.list {
+    list-style-type: none;
+    border: 1px solid black;
+    width:  10rem;
+    text-align: center;
+    margin: 30px;
+}
