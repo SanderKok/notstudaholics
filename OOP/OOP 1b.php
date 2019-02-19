@@ -78,7 +78,7 @@ $room->getVolumeRoom();
 $house->addRoom($room);
 
 #calculates total volume of the house
-print $house->setVolumeHouse();
+$house->setVolumeHouse();
 #prints the price of the house
 print $house->getPrice();
 ?>
