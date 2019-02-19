@@ -10,8 +10,7 @@ class House {
     private $answer;
     
     #gets the values
-    public function setHouse($floors, $rooms, $width, $height, $depth)
-	{
+    public function setHouse($floors, $rooms, $width, $height, $depth) {
 		$this->floors = $floors;
 		$this->rooms = $rooms;
 		$this->width = $width;
@@ -22,44 +21,37 @@ class House {
     }
     
     #returns the value of the floors
-    public function getFloors()
-	{
+    public function getFloors() {
 		return "amount floors = ".$this->floors."<br>";
     }
     
     #returns the value of the rooms
-    public function getRooms()
-	{
+    public function getRooms() {
 		return "amount rooms = ".$this->rooms."<br>";
     }
     
     #returns the value of the width
-    public function getWidth()
-	{
+    public function getWidth() {
 		return "The width = ".$this->width."<br>";
     }
     
     #returns the value of the heigth
-    public function getHeight()
-	{
+    public function getHeight() {
 		return "de height = ".$this->height."<br>";
 	}
     
     #returns the value of the depth
-    public function getDepth()
-	{
+    public function getDepth() {
 		return "de depth = ".$this->depth."<br>";
     }
     
     #calculates and returns the value of 
-    public function getAnswer()
-    {
+    public function getAnswer() {
         return "kubic meters = ". $this->answer."<br>";
     }
 
     #returns the value of the price
-    public function getPrice()
-	{
+    public function getPrice() {
 		return "the price per kubic meter is 15 euro's. Price = €". $this->price."<br><br>";
     }
 }
