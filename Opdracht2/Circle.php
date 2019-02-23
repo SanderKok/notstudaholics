@@ -7,11 +7,7 @@ class Circle extends Figure {
         parent::__construct($color);
     }
 
-    public function getSize() {
-        return $this->size;
-    }
-
     public function drawCircle() {
-        print '<div style="background-color:'.$this->getColor().';'.'width: '.$this->getSize().'px; height:'.$this->getSize().'px; border-radius: 50%;">' .'</div>';
+        print '<div style="background-color:'.$this->getColor().';'.'width: '.$this->size.'px; height:'.$this->size.'px; border-radius: 50%;">' .'</div>';
     }
 }

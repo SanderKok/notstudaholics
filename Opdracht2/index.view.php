@@ -5,7 +5,7 @@
     <title>Figuren</title>
 </head>
 <body>
-    <?php $rectangle->makeRectangle() ?>
+    <?php $rectangle->drawRectangle() ?>
     <?php $square->drawSquare() ?>
     <?php $circle->drawCircle() ?>
     <?php $triangle->drawTriangle() ?>

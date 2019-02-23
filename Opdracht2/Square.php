@@ -7,11 +7,7 @@ class Square extends Figure {
         parent::__construct($color);
     }
 
-    public function getSize() {
-        return $this->size;
-    }
-
     public function drawSquare() {
-        print '<div style="background-color:'.$this->getColor().';' .'width: '.$this->getSize().'px; height: '.$this->getSize().'px">' .'</div>';
+        print '<div style="background-color:'.$this->getColor().';' .'width: '.$this->size.'px; height: '.$this->size.'px">' .'</div>';
     }
 }
