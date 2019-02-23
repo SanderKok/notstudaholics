@@ -1,0 +1,41 @@
+body {
+    margin-top: 67px;
+    margin-left: 66px;
+    display: inline-flex
+}
+
+.left {
+    background-color: red;
+    width: 397px;
+    height: 561px;
+    display: inline-flex;
+}
+
+.right {
+    margin-left: 71px;
+}
+
+#bottom {
+    margin-top: 25px;
+}
+
+#top {
+    background-color: blue;
+    width: 639px;
+    height: 235px;
+    display: inline-flex;
+}
+
+#bottom-left {
+    background-color: orange;
+    width: 500px;
+    height: 243px;
+    display: flex;
+}
+
+#bottom-right {
+    background-color: green;
+    display: flex;
+    width: 10px;
+    height: 10px;
+}
